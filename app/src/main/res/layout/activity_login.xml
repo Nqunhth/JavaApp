@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".controller.activity.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="280dp"
+        android:elevation="1dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_top_right_background"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:textColorHint="#CDCDCD"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:startIconDrawable="@drawable/ic_login_user"
+                app:startIconTint="#CDCDCD">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginUsernameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_top_right_background"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_bottom_right_background"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:textColorHint="#CDCDCD"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:passwordToggleDrawable="@drawable/login_password_eyes"
+                app:passwordToggleEnabled="true"
+                app:startIconDrawable="@drawable/ic_login_key"
+                app:startIconTint="#CDCDCD">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginPasswordText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_password_round_inner"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="18dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/loginConfirmBtn"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="325dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle_background"
+        android:elevation="5dp"
+        app:srcCompat="@drawable/ic_login_white_arrow_right"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="-1dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/sunrise_background" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="485dp"
+        android:background="@drawable/login_blue_background"
+        android:backgroundTint="#9DE1FE"
+        android:elevation="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/mplus_black"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="68dp" />
+
+    <ImageButton
+        android:id="@+id/loginCancelBtn"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:background="@drawable/circle_white_btn_background"
+        app:srcCompat="@drawable/ic_times_circle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/loginForgetBtn"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginLeft="210dp"-->
+<!--        android:layout_marginTop="460dp"-->
+<!--        android:background="@drawable/login_forget_btn_background"-->
+<!--        android:fontFamily="@font/mplus_black"-->
+<!--        android:text="Forgot ?"-->
+<!--        android:textColor="#727272"-->
+<!--        android:textSize="16dp" />-->
+
+
+</FrameLayout>

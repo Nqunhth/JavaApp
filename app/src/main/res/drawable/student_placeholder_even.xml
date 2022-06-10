@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+
+            <solid android:color="#FFAB6F" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_student_odd"
+        android:bottom="30dp"
+        android:top="30dp"
+        android:left="26dp"
+        android:right="26dp"
+        />
+</layer-list>

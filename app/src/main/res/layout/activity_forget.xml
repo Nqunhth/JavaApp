@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".controller.activity.MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="-1dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="395dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/sunrise_background" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="485dp"
+        android:background="@drawable/login_blue_background"
+        android:backgroundTint="#9DE1FE"
+        android:elevation="0dp" />
+
+    <LinearLayout
+        android:layout_width="324dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/forget_shadow_round_textinput_bgr"
+        android:elevation="1dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:textColorHint="#CDCDCD"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:startIconDrawable="@drawable/ic_forget_envelope"
+            app:startIconTint="#CDCDCD">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/forgetEmailText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/roboto_light"
+                android:hint="Validated Email"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="18dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/mplus_black"
+        android:text="Recovery"
+        android:textColor="#3F51B5"
+        android:textSize="68dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/mplus_bold"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="38dp" />
+
+    <ImageButton
+        android:id="@+id/forgetBackBtn"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:background="@drawable/circle_white_btn_background"
+        app:srcCompat="@drawable/ic_forget_angle_double_left"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/forgetConfirmBtn"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/login_forget_btn_background"
+        android:fontFamily="@font/mplus_black"
+        android:text="Send"
+        android:textColor="#727272"
+        android:textSize="16dp" />
+
+
+</FrameLayout>

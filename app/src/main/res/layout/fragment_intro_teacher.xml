@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_teacher_text_1"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:lineHeight="30dp"
+            android:fontFamily="@font/mplus_black"
+            android:textColor="@color/intro_text_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_teacher_text_2"
+            android:layout_gravity="center"
+            android:textColor="@color/sunrise_1"
+            android:textSize="24sp"
+            android:lineHeight="30dp"
+            android:fontFamily="@font/mplus_black"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/intro_teacher_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/item_intro_teacher"
+            android:layout_marginBottom="50dp"/>
+    </LinearLayout>
+
+
+</FrameLayout>

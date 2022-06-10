@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@+id/navigation_home">
+
+        <fragment
+            android:id="@+id/navigation_home"
+            android:name="com.example.myapp.controller.fragment.home.MainHome"
+            android:label="@string/title_home"
+            tools:layout="@layout/fragment_main_home" />
+        <fragment
+            android:id="@+id/navigation_news"
+            android:name="com.example.myapp.controller.fragment.news.MainNews"
+            android:label="@string/title_news"
+            tools:layout="@layout/fragment_main_news" />
+        <fragment
+            android:id="@+id/navigation_intro"
+            android:name="com.example.myapp.controller.fragment.intro.MainIntro"
+            android:label="@string/title_intro"
+            tools:layout="@layout/fragment_main_intro" />
+        <fragment
+            android:id="@+id/navigation_course"
+            android:name="com.example.myapp.controller.fragment.courses.MainCourses"
+            android:label="@string/title_course"
+            tools:layout="@layout/fragment_main_courses" />
+</navigation>

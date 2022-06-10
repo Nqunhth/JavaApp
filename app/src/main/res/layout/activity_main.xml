@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.activity.MainActivity">
+
+    <fragment
+        android:id="@+id/userbar"
+        android:name="com.example.myapp.controller.fragment.userbar.UserBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_user_bar" />
+
+    <FrameLayout
+        android:id="@+id/host_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/navigation"
+        android:name="com.example.myapp.controller.fragment.navigation.BottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_navigation"
+        android:layout_gravity="bottom"/>
+    <fragment
+        android:id="@+id/chatbot"
+        android:name="com.example.myapp.controller.fragment.chatbot.ChatBot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        tools:layout="@layout/fragment_chatbot"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="20dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

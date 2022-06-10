@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid android:color="@color/news_detail_image" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_image"
+        android:bottom="30dp"
+        android:top="30dp"
+        android:left="110dp"
+        android:right="110dp"
+        />
+</layer-list>

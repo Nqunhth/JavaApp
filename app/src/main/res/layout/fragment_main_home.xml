@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".controller.fragment.home.MainHome"
+    android:background="@color/sunrise_3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/sunrise_2">
+        <fragment
+            android:id="@+id/home_slider"
+            android:name="com.example.myapp.controller.fragment.imageSlider.AutoSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_auto_slider"
+            android:layout_gravity="top|center"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="75dp"/>
+        <fragment
+            android:id="@+id/home_ad"
+            android:name="com.example.myapp.controller.fragment.advertise.Achievement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_ad_achievement"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="5dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/home_ad_whyus"
+                android:name="com.example.myapp.controller.fragment.advertise.Whyus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_ad_whyus"
+                android:layout_marginTop="5dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:layout_marginTop="147dp"
+                android:background="@android:color/transparent">
+
+<!--                <com.google.android.material.button.MaterialButton-->
+<!--                    android:id="@+id/regist_exam_button"-->
+<!--                    android:layout_width="185dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:backgroundTint="@color/sunrise_1"-->
+<!--                    android:text="@string/dk_title"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="12sp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:shapeAppearanceOverlay="@style/ArrowShapeAppearance" />-->
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="167dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="50dp"
+                android:paddingStart="35dp"
+                android:orientation="horizontal"
+                android:background="@color/sunrise_3">
+                <ImageView
+                    android:id="@+id/image_for_Slider"
+                    android:layout_width="83dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ielts_exam"
+                    android:scaleType="fitXY"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dk_name"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mplus_bold"
+                        android:textSize="14sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dk_centerName"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mplus_bold"
+                        android:textSize="14sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dk_centerAdress"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mplus_regular"
+                        android:textFontWeight="500"
+                        android:textSize="12sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dk_centerContact"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mplus_regular"
+                        android:textFontWeight="500"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

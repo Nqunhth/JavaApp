@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:background="@color/sunrise_1"
+    android:id="@+id/intro_teacher_itemlayout">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/intro_student_avatar"
+            android:layout_width="95dp"
+            android:layout_height="105dp"
+            android:background="@drawable/student_placeholder_odd"
+            android:scaleType="fitXY" />
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intro_student_t_name"
+                android:fontFamily="@font/mplus_bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/intro_student_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intro_teacher_d_name"
+                android:fontFamily="@font/mplus_bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/intro_student_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_teacher_t_title"
+            android:fontFamily="@font/mplus_regular"
+            android:textSize="12sp"
+            android:textColor="@color/intro_text_1"/>
+        <TextView
+            android:id="@+id/intro_student_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/intro_student_d_content"
+            android:fontFamily="@font/mplus_regular"
+            android:textSize="12sp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
