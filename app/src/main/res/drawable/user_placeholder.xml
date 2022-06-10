@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/user_detail_bg"
+        android:height="120dp"
+        android:width="120dp"
+        >
+
+    </item>
+    <item
+        android:drawable="@drawable/ic_user_regist"
+        android:bottom="40dp"
+        android:top="40dp"
+        android:left="40dp"
+        android:right="40dp"
+        />
+</layer-list>

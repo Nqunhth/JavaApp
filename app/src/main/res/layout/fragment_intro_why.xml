@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <fragment
+            android:id="@+id/who_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.myapp.controller.fragment.advertise.Whyus"
+            tools:layout="@layout/fragment_ad_whyus"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/intro_who">
+            <fragment
+                android:id="@+id/who_achie_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.example.myapp.controller.fragment.advertise.Achievement"
+                tools:layout="@layout/fragment_ad_achievement"
+                android:layout_marginTop="20dp"/>
+            <fragment
+                android:id="@+id/who_achie_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.example.myapp.controller.fragment.advertise.Achievement"
+                tools:layout="@layout/fragment_ad_achievement"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

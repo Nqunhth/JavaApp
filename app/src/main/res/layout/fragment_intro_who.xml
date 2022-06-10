@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                app:layout_constraintCircleRadius="10dp"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                app:srcCompat="@color/sunrise_4"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intro_logo"
+                android:fontFamily="@font/mplus_black"
+                android:textColor="@color/intro_logo"
+                android:textSize="30sp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/intro_round_corner"
+            android:layout_gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intro_who"
+                android:fontFamily="@font/mplus_bold"
+                android:textColor="@color/intro_text_1"
+                android:textSize="28sp"
+                android:layout_gravity="center"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/intro_content">
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sunrise_5"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:text="@string/intro_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:fontFamily="@font/mplus_regular"
+                android:textColor="@color/intro_text_2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

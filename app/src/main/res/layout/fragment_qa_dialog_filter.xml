@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="30dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/qa_filter_closeicon"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_times"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/qa_filter_reset"
+            android:gravity="center_vertical|start"
+            android:textSize="20sp"
+            android:fontFamily="@font/mplus_medium"
+            android:textColor="@color/sunrise_3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qa_filter_title"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            android:fontFamily="@font/mplus_black"
+            android:textColor="@color/sunrise_3"
+            android:textFontWeight="800"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/qa_filter_main_1"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:checkable="true"
+        android:text="@string/qa_filter_center"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:chipIcon="@drawable/ic_check"
+        app:chipIconTint="@color/black"
+        app:closeIconVisible="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="45dp"
+
+        android:layout_marginEnd="20dp">
+        <com.google.android.material.chip.Chip
+            android:id="@+id/qa_filter_sub_11"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:checkable="true"
+            android:text="Đăng ký"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/qa_filter_sub_12"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="8dp"
+            android:checkable="true"
+            android:text="Giảng dạy"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="20dp">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/qa_filter_sub_13"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:checkable="true"
+            android:text="Bảo lưu"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/qa_filter_sub_14"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="8dp"
+            android:checkable="true"
+            android:text="Liên hệ"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/qa_filter_sub_15"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="8dp"
+            android:checkable="true"
+            android:text="Khác"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+    </LinearLayout>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/qa_filter_main_2"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:checkable="true"
+        android:text="@string/qa_filter_course"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:chipIcon="@drawable/ic_check"
+        app:chipIconTint="@color/black"
+        app:closeIconVisible="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="45dp">
+        <com.google.android.material.chip.Chip
+            android:id="@+id/qa_filter_sub_21"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:checkable="true"
+            android:text="@string/qa_filter_course_1"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/qa_filter_sub_23"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="8dp"
+            android:checkable="true"
+            android:text="@string/qa_filter_course_2"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+    </LinearLayout>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/qa_filter_sub_22"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="8dp"
+        android:checkable="true"
+        android:text="@string/qa_filter_course_3"
+        android:theme="@style/Theme.MaterialComponents.Light" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/qa_filter_done"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/intro_round_corner"
+        android:backgroundTint="@color/sunrise_3"
+        android:text="Lọc"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

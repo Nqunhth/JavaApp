@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/why_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/why_title"
+            android:fontFamily="@font/roboto_black"
+            android:textFontWeight="900"
+            android:textSize="24sp"
+            android:textColor="@color/textcolor_1"/>
+        <TextView
+            android:id="@+id/why_content"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="@string/why_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:textColor="@color/textcolor_2"
+            android:lineHeight="16sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ad_graduation"
+        android:layout_marginTop="5dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

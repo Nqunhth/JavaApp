@@ -1,0 +1,296 @@
+<resources>
+    <string name="app_name">Course Adviser</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Meow Bottom Navigation-->
+    <string name="title_home">Home</string>
+    <string name="title_news">News</string>
+    <string name="title_intro">Intro</string>
+    <string name="title_course">Course</string>
+
+    <!--Page Home Advertise-->
+        <!--Achievement-->
+    <string name="ad_data_1">8.5/9.0</string>
+    <string name="ad_type_1">HIGHEST IELTS</string>
+    <string name="ad_data_2">900/990</string>
+    <string name="ad_type_2">HIGHEST TOEIC</string>
+    <string name="ad_data_3">50 triệu</string>
+    <string name="ad_type_3">Tổng giá trị học bổng</string>
+        <!--Why Us-->
+    <string name="why_title">Về trung tâm</string>
+    <string name="why_content">Chúng tôi luôn được biết đến là tổ chức giáo dục uy tín đem lại sự cải thiện rõ rệt trong kĩ năng học thuật và điểm số từ các bài thi quốc tế của học viên</string>
+        <!--Dang ky thi thu-->
+    <string name="dk_title">Đăng ký thi thử ngay!</string>
+    <string name="dk_name">Thi thử IELTS</string>
+    <string name="dk_centerName">Trung tâm Anh Ngữ XYZ</string>
+    <string name="dk_centerAdress">xx đường yy quận TP.HCM</string>
+    <string name="dk_centerContact">00000xxxx</string>
+    <!--Home Menu-->
+    <string name="menu_personal">Hồ sơ người dùng</string>
+    <string name="menu_user_manage">Quản lý tài khoản</string>
+    <string name="menu_news_manage">Quản lý bài đăng</string>
+    <string name="menu_logout">Đăng xuất</string>
+
+    <!--Search-->
+    <string name="search_content">Tìm kiếm</string>
+    <!--Filter-->
+    <string name="filter_content">Bộ lọc</string>
+
+    <!--Page News-->
+    <string name="news_title_1">Đề xuất</string>
+    <string name="news_title_2">Khác</string>
+    <string name="news_sub_1">Xem tất cả</string>
+        <!--Item News-->
+    <string name="news_item_title">News title</string>
+    <string name="news_item_author">Author</string>
+    <string name="news_item_date">DD/MM/YYYY</string>
+        <!--List News-->
+    <string name="news_list_tilte">Tất cả bài viết</string>
+    <string name="news_list_tilte_for_search">Tìm kiếm bài viết</string>
+        <!--News detail-->
+    <string name="news_detail_title_1">DD/MM/YYYY</string>
+    <string name="news_detail_title_2">hh/mm</string>
+    <string name="news_detail_title_post">Tiêu đề bài đăng</string>
+    <string name="news_detail_author">Tác giả</string>
+    <string name="news_detail_location">Vị trí</string>
+    <string name="news_detail_content">Nội dung bài viết Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fu</string>
+        <!--Create News-->
+    <string name="news_create_title">Đăng tin mới</string>
+    <string name="news_create_title_1">Tiêu đề</string>
+    <string name="news_create_title_2">Nơi thể hiển</string>
+    <string name="news_create_hint_1">Tiêu đề của bài viết</string>
+    <string name="news_create_hint_2">Đề suất khác</string>
+    <string name="news_create_image">Hình ảnh</string>
+    <string name="news_create_content">Nội dung</string>
+    <string name="news_create_content_hint">Nhập nội dung mới…</string>
+    <string name="news_button_view">Xem trước</string>
+    <string name="news_button_create">Đăng tin</string>
+    <string-array name="news_display_place">
+        <item>Slider</item>
+        <item>List</item>
+    </string-array>
+
+    <!--Page Intro-->
+    <string name="intro_logo">LOGO</string>
+    <string name="intro_who">Chúng tôi là ?</string>
+    <string name="intro_content">Trung tâm Anh ngữ chuyên luyện thi chứng chỉ dành cho sinh viên cũng như đào tạo anh văn giao tiếp cho người đi làm, cam kết chứng chỉ đầu ra cũng như khả năng giao tiếp lưu loát với người bản xứ sau khi học.</string>
+    <string name="intro_next">Tiếp</string>
+    <string name="intro_end">Xem khóa học!</string>
+
+    <string name="intro_teacher_text_1">Đội ngũ giáo viên</string>
+    <string name="intro_teacher_text_2">phương châm giáo dục</string>
+    <string name="intro_teacher_t_name">Mr/Mrs: </string>
+    <string name="intro_teacher_d_name">Name</string>
+    <string name="intro_teacher_t_title">Thành tích ấn tượng</string>
+    <string name="intro_teacher_t_field">Phụ trách: </string>
+    <string name="intro_teacher_d_field">IELTS listening</string>
+    <string name="intro_teacher_d_content">Something more Something less Less and More More then less</string>
+    
+    <string name="intro_faci_t_faci">Khuôn viên</string>
+    <string name="intro_faci_d_faci">Trung tâm chúng tôi tạo môi trường học thích hợp dành cho học viên.</string>
+    <string name="intro_faci_t_zone">Không gian</string>
+    <string name="intro_faci_d_zone">Chúng tôi luôn chủ động, sẵn sàng hỗ trợ học viên mọi lúc.</string>
+    <string name="intro_faci_t_class">Lớp học</string>
+    <string name="intro_faci_d_class">Nội thất phòng học cách tân, đem lại không gian thân thiện cho học viên.</string>
+    <string name="intro_faci_t_tech">Công nghệ</string>
+    <string name="intro_faci_d_tech">Đầy đủ trang thiết bị sử dụng cho giảng dạy luôn hoạt động.</string>
+    <string name="intro_faci_title">Cơ sở hạ tầng</string>
+    <string name="intro_faci_faci">Khuôn viên</string>
+    <string name="intro_faci_zone">Không gian</string>
+    <string name="intro_faci_class">Lớp học</string>
+    <string name="intro_faci_tech">Công nghệ</string>
+
+    <string name="intro_student_text">Cảm nhận của học viên</string>
+    <string name="intro_student_t_name">Student: </string>
+    <string name="intro_student_d_name">Name</string>
+    <string name="intro_student_t_title">Thành tích ấn tượng</string>
+    <string name="intro_student_d_content">Lời cảm ơn các thứ…Yêu thầy cô, yêu bạn bè, yêu trường yêu lớp</string>
+
+    <!--Page Course-->
+    <string name="course_title_1">TRUNG TÂM CHÚNG TÔI CUNG CẤP</string>
+    <string name="course_title_2">KHÓA HỌC</string>
+    <string name="course_card_1">Luyện thi IELTS</string>
+    <string name="course_card_2">Tiếng Anh cho bé</string>
+    <string name="course_card_3">Tiếng Anh cho người đi làm</string>
+    <string name="course_bestseller">ĐƯỢC YÊU THÍCH NHẤT</string>
+    <string name="course_more">Xem thêm >></string>
+    
+    <!--Page Course IELTS-->
+    <string name="course_ielts_title">Khóa Luyện thi IELTS</string>
+    <string name="course_ielts_title_1">Giới thiệu tổng quát</string>
+    <string name="course_ielts_content_1">Nội dung chính của các bài học xoay quanh các chiến thuật và kỹ năng làm bài để giúp người học tiếp cận một cách hiệu quả nhất các dạng câu hỏi của IELTS. Xây dựng kiến thức ngôn ngữ học thuật nền tảng, từ vựng và ngữ pháp. Luyện đề từ cơ bản đến chuyên sâu với kho bài tập đa dạng và phong phú.</string>
+
+    <string name="course_ielts_title_2">Phân cấp</string>
+    <string name="course_ielts_content_2_a">Khóa học này có 3 cấp độ là PRE, INTER, ADV tương ứng với mức độ nhập môn, trung bình và nâng cao.</string>
+    <string name="course_ielts_content_2_b">Để đăng ký các Khóa học này, học viên sẽ phải trải qua một bài kiểm tra đầu vào để xác định trình độ. Trung tâm sẽ phân bố xếp lớp dựa vào kết quả bài kiểm tra đầu vào của học viên</string>
+    <string name="course_ielts_content_2_c">Nếu học viên vẫn chưa có kiến thức về tiếng Anh, hoặc không tham gia kiểm tra đầu vào, sẽ được mặc định xếp vào cấp nhập môn, PRE, của mỗi khóa học đăng ký.</string>
+    <string name="course_ielts_content_2_d">Nếu muốn học cao hơn, học viên bắt buộc phải đạt chỉ tiêu của các lớp học trước đó, thông qua các bài kiểm tra thử của trung tâm.</string>
+
+    <string name="course_ielts_title_3">Đầu vào &amp; Đầu ra cam kết</string>
+    <string name="course_ielts_table_01">PRE</string>
+    <string name="course_ielts_table_02">INTER</string>
+    <string name="course_ielts_table_03">ADV</string>
+    <string name="course_ielts_table_10">Yêu cầu đầu vào</string>
+    <string name="course_ielts_table_11">Không yêu cầu</string>
+    <string name="course_ielts_table_12">Thi thử 5.0 – 7.0</string>
+    <string name="course_ielts_table_13">Thi thử trên 7.0</string>
+    <string name="course_ielts_table_20">Cam kết đầu ra</string>
+    <string name="course_ielts_table_21">5.0</string>
+    <string name="course_ielts_table_22">6.0 – 8.0</string>
+    <string name="course_ielts_table_23">Trên 8.0</string>
+
+    <string name="course_ielts_title_4">Thời gian của khóa học</string>
+    <string name="course_ielts_content_4_a">- Thường : 1 năm / cấp</string>
+    <string name="course_ielts_content_4_b">- Cấp tốc : 3 tháng / cấp</string>
+
+    <string name="course_ielts_title_5">Phương thức giảng dạy</string>
+    <string name="course_ielts_content_5_a">Thường : một lớp học tập thể gồm 5 đến 20 học viên</string>
+    <string name="course_ielts_content_5_b">Một kèm một : lớp học kèm dành riêng cho 1 học viên</string>
+
+    <string name="course_ielts_title_6">Thông tin học phí</string>
+
+    <!--Page Course ForAdult-->
+    <string name="course_adult_title">Khóa Tiếng Anh cho người đi làm</string>
+    <string name="course_adult_content_1">Khóa học tiếng Anh giao tiếp cho người đi làm được thiết kế nhằm giúp học viên nâng cao, rèn luyện khả năng giao tiếp tiếng Anh trong môi trường làm việc. Từ đó mở rộng thêm cơ hội việc làm và thăng tiến trong sự nghiệp. Khóa học đặc biệt này sẽ giúp các bạn tăng sự tự tin khi sử dụng tiếng Anh trong các tình huống giao tiếp tại công sở. Phù hợp với các bạn còn e ngại giao tiếp, khả năng giao tiếp còn hạn chế.</string>
+    <string name="course_adult_content_2_a">Khóa học này có 3 cấp độ là PRE, INTER, ADV tương ứng với mức độ nhập môn (trình độ A1, A2), trung bình (trình độ B1, B2) và nâng cao (trình độ C1).</string>
+    <string name="course_adult_content_2_b">Xếp cấp lớp dựa vào đầu ra mong muốn của người học. Khóa học không yêu cầu thi đầu vào. Thời gian học của mỗi cấp khác nhau. Vì vậy học viên có thể tùy chọn đăng ký khóa học phù hợp với nhu cầu bản thân.</string>
+
+    <!--Page Course ForKid-->
+    <string name="course_kid_title">Khóa Tiếng Anh cho bé</string>
+    <string name="course_kid_content_1a">Đây là khóa học giúp nâng cao trình độ cho các em nhỏ từ 3 đến 11 tuổi với cách học thú vị, kết hợp với sự nhiệt tình và kinh nghiệm của giáo viên sẽ giúp các em nhỏ có được niềm vui và đam mê khi học tiếng Anh.</string>
+    <string name="course_kid_content_1b">Khóa học cung cấp cho các bé đủ vốn từ vựng cơ bản để trò chuyện về các chủ đề thông dụng như gia đình,bạn bè,động thực vật…, giúp các bé giao tiếp bằng tiếng Anh với người nước ngoài chủ động và tự tin hơn và nâng cao khả năng nghe hiểu tiếng anh của các bé.</string>
+    <string name="course_kid_content_2a">Khóa học được phân ra 2 lớp KINDERGARTEN và PRIMARY ứng với các bé trước tiểu học (từ 3 đến 5 tuổi) và tiểu học (6 đến 11 tuổi).</string>
+    <string name="course_kid_content_2b">Nhằm tạo môi trường thân thiện cho bé tiếp xúc với giáo dục bằng tiếng Anh ngay từ nhỏ, trung tâm chúng tôi không yêu cầu đầu vào ở khóa học này.</string>
+    <string name="course_kid_content_4a">- Mẫu giáo A : 3 tháng / cấp - 2 tiếng / ngày</string>
+    <string name="course_kid_content_4b">- Mẫu giáo B : 3 tháng / cấp - 4 tiếng / ngày</string>
+
+
+    <!--Page QA-->
+    <string name="qa_title">Q &amp; A</string>
+        <!--QA Item-->
+    <string name="qa_item_q_title">Q:</string>
+    <string name="qa_item_a_title">A:</string>
+    <string name="qa_item_q">Question content jhkdajs hfjahwui huawihw dasdhw djahdwida dawhdi dnwia?</string>
+    <string name="qa_item_a">Answer content blah sdfgb adiawu bduawihdhwaihw dbaid wab dbwiadwadwdsdad</string>
+        <!--QA Create-->
+    <string name="qa_create_title">Giải đáp mới</string>
+    <string name="qa_create_theme">Chủ đề chính</string>
+    <string name="qa_create_themehint">Khóa học/ Trung tâm</string>
+    <string name="qa_create_subtheme1">Chủ đề phụ 1</string>
+    <string name="qa_create_subtheme1_hint">Loại khóa học</string>
+    <string name="qa_create_subtheme2">Chủ đề phụ 2</string>
+    <string name="qa_create_subtheme2_hint">Học phí</string>
+    <string name="qa_create_q">Câu hỏi</string>
+    <string name="qa_create_qhint">Nhập nội dung câu hỏi…</string>
+    <string name="qa_create_a">Giải đáp</string>
+    <string name="qa_create_ahint">Nhập nội dung giải đáp…</string>
+    <string name="qa_create_add">Tạo mới</string>
+    <string-array name="qa_main_subject">
+        <item>Trung tâm</item>
+        <item>Khóa học</item>
+    </string-array>
+    <string-array name="qa_center_subject_a">
+        <item>Đăng kí</item>
+        <item>Liên hệ</item>
+        <item>Giảng dạy</item>
+        <item>Bảo lưu</item>
+    </string-array>
+    <string-array name="qa_center_subject_b">
+        <item>None</item>
+    </string-array>
+    <string-array name="qa_course_subject_a">
+        <item>IELTS</item>
+        <item>Tiếng Anh cho người đi làm</item>
+        <item>Tiếng Anh cho bé</item>
+    </string-array>
+    <string-array name="qa_course_subject_b">
+        <item>Học phí</item>
+    </string-array>
+        <!-- QA Filter-->
+    <string name="qa_filter_reset">Thiết lập</string>
+    <string name="qa_filter_title">Bộ lọc</string>
+    <string name="qa_filter_center">Trung tâm</string>
+    <string name="qa_filter_center_1">Kỳ nghỉ</string>
+    <string name="qa_filter_center_2">Học bổng</string>
+    <string name="qa_filter_center_3">Chính sách</string>
+    <string name="qa_filter_center_4">Giảng dạy</string>
+    <string name="qa_filter_center_5">Liên hệ</string>
+    <string name="qa_filter_center_6">Khác</string>
+    <string name="qa_filter_course">Khóa học</string>
+    <string name="qa_filter_course_1">IELTS</string>
+    <string name="qa_filter_course_2">Tiếng Anh cho bé</string>
+    <string name="qa_filter_course_3">Tiếng Anh cho người đi làm</string>
+    <string name="qa_filter_course_4">Học phí</string>
+    <string name="qa_filter_course_5">Lịch học</string>
+    <string name="qa_filter_course_6">Khác</string>
+    <string name="qa_filter_done">LỌC</string>
+
+    <!-- ChatBot-->
+    <string name="bot_hint">Nhập lời thoại</string>
+
+    <!--Exam Regist-->
+    <string name="exam_rg_title">Tạo lịch hẹn</string>
+    <string name="exam_rg_name">Họ tên:</string>
+    <string name="exam_rg_namehint">Nhập họ tên bạn nhé</string>
+    <string name="exam_rg_email">Email:</string>
+    <string name="exam_rg_emailhint">Chúng tôi sẽ gửi thông báo đến địa chỉ mail của bạn</string>
+    <string name="exam_rg_purpose">Mục đích:</string>
+    <string name="exam_rg_course">Loại khóa học:</string>
+    <string name="exam_rg_time">Thời gian:</string>
+    <string name="exam_rg_date">dd/mm/yyyy</string>
+    <string name="exam_rg_hour">hh/mm</string>
+    <string name="exam_rg_done">Xác nhận và Đăng ký</string>
+    <string-array name="exam_rg_purpose_1">
+        <item>Thi thử/ Tư vấn</item>
+        <item>Thi xếp lớp</item>
+        <item>Chỉ tư vấn</item>
+    </string-array>
+    <string-array name="exam_rg_course_1">
+        <item>IELTS</item>
+        <item>Tiếng Anh cho bé</item>
+        <item>Tiếng Anh cho người đi làm</item>
+    </string-array>
+
+
+
+
+    <!--User Item-->
+    <string name="user_item_name">UserName</string>
+    <string name="user_item_email">validEmail@gmail.com</string>
+    <string name="user_item_date">dd/mm/yyyy</string>
+    <!--User List-->
+    <string name="user_list_title">Tất cả tài khoản</string>
+    <!--User Regist-->
+    <string name="user_rg_title">Tạo tài khoản</string>
+    <string name="user_rg_position">Vị trí</string>
+    <string name="user_rg_username">Tên tài khoản</string>
+    <string name="user_rg_password">Mật khẩu</string>
+    <string name="user_rg_email">Email xác thực</string>
+    <string name="user_rg_done">Tạo mới</string>
+    <string-array name="user_rg_position_1">
+        <item>Nhân viên</item>
+        <item>Quản lý</item>
+    </string-array>
+    <!--User Detail-->
+    <string name="user_detail_title">Hồ sơ người dùng</string>
+    <string name="user_detail_position">Vị trí</string>
+    <string name="user_detail_username">Username</string>
+    <string name="user_detail_password">Password</string>
+    <string name="user_detail_name">Họ tên</string>
+    <string name="user_detail_namehint">Họ tên chủ tài khoản</string>
+    <string name="user_detail_birthday">Ngày sinh</string>
+    <string name="user_detail_birthdayhint">DD/MM/YYYY</string>
+    <string name="user_detail_place">Nơi ở</string>
+    <string name="user_detail_placehint">TP HCM</string>
+    <string name="user_detail_b_change">Đổi mật khẩu</string>
+    <string name="user_detail_b_edit">Thay đổi</string>
+    <string name="user_detail_b_save">Lưu</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //Sunrise Type - Main color
+    <color name="sunrise_1">#FFAB6F</color>
+    <color name="sunrise_2">#D4F2FF</color>
+    <color name="sunrise_3">#3B679B</color>
+    <color name="sunrise_4">#C7F5FF</color>
+    <color name="sunrise_5">#C3F4EE</color>
+
+    //Color for Meow Navigation
+    <color name="meow_selectedIconColor">@color/white</color>
+    <color name="meow_defaultIconColor">#C4C4C4</color>
+    <color name="meow_countTextColor">@color/white</color>
+    <color name="meow_countBackgroundColor">@color/white</color>
+    <color name="meow_circleColor">@color/sunrise_1</color>
+    <color name="meow_backgroundBottomColor">@color/white</color>
+    <color name="meow_shadowColor">#F5D494</color>
+
+    //Color for Indicator
+    <color name="normal_indicator">#5A5A5A</color>
+
+        //Color for text
+    <color name="textcolor_1">#0081C9</color>
+    <color name="textcolor_2">#36ADEF</color>
+    <color name="textcolor_3">#A8A8A8</color>
+    <color name="subtext_1">#5FA8D0</color>
+    <color name="subtext_2">#4DBDEE</color>
+    <color name="subtext_3">#B9A3A3</color>
+        //Color for border
+    <color name="rg_border">#A7A7A7</color>
+
+    //Color for News Page
+        //News General
+    <color name="news_text">#3E3F41</color>
+    <color name="news_title_bg">#BAC8DA</color>
+    <color name="news_icon">#B9C8DA</color>
+        //News List
+    <color name="news_del_bg">#CF7E7E</color>
+        //News Detail
+    <color name="news_detail_title">#C0BFBF</color>
+    <color name="news_detail_image">#9DE1FE</color>
+    
+    //Color for Intro Page
+        //Intro Who
+    <color name="intro_logo">#5D5FEF</color>
+    <color name="intro_who">#F5D494</color>
+        //Intro Why
+    <color name="intro_text_1">#D15C06</color>
+    <color name="intro_text_2">#081C64</color>
+        //Intro Teacher
+    <color name="intro_teacher">#9DE1FE</color>
+    <color name="intro_teacher_text">#5B51C5</color>
+        //Intro Facility
+    <color name="intro_faci_text">#3B679B</color>
+        //Intro Student
+    <color name="intro_student_bg">#FFFDF8</color>
+
+    //Color for Course Page
+    <color name="course_bg">#FDF7EB</color>
+    <color name="course_title">#ED7979</color>
+        //Course IELTS
+    <color name="course_ielts_backicon">#A5A4A4</color>
+    <color name="course_ielts_bg1">@color/white</color>
+    <color name="course_ielts_bg2">#F9ECD5</color>
+    <color name="course_ielts_bg3">#FFDABF</color>
+    <color name="course_ielts_table_0">#E9975C</color>
+    <color name="course_ielts_table_1">#FFB57F</color>
+    <color name="course_ielts_table_2">#FFC295</color>
+    <color name="course_ielts_table_inner">#F8F8F8</color>
+
+    //Color for QA Page
+        //Item QA
+    <color name="qa_item_edit">#7FBFE3</color>
+    <color name="qa_item_del">#D39E9E</color>
+    <color name="qa_item_done">#9ADC9D</color>
+    <color name="qa_item_a">#332396</color>
+
+    //Color for ChatBot
+    <color name="bot_textinput">#E2E2E2</color>
+
+    //Exam Regist
+    <color name="exam_rg_icon_2">#EF761E</color>
+    
+    //User Regist
+    <color name="user_rg">#7B7DBB</color>
+    //User Detail
+    <color name="user_detail_bg">#CBC0C0</color>
+    <color name="user_detail_button">#07B5FF</color>
+
+</resources>

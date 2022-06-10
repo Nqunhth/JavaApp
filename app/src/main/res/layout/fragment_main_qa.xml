@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.fragment.qa.MainQA"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/sunrise_3"
+        android:layout_marginBottom="60dp">
+        <TextView
+            android:id="@+id/qa_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_black"
+            android:textSize="32sp"
+            android:layout_marginTop="60dp"/>
+        <SearchView
+            android:id="@+id/qa_search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            app:iconifiedByDefault="false"
+            android:background="@drawable/round_corner_layout"
+            android:paddingStart="15dp"
+            android:layout_marginTop="10dp"
+            android:queryHint="Tìm theo câu hỏi"
+            android:searchIcon="@drawable/ic_search"
+            android:theme="@style/SearchTextView" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_layout"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/qa_filter"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape_filter"
+                    android:translationZ="10dp"
+                    app:backgroundTint="@color/sunrise_3"
+                    android:text="@string/filter_content"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:drawableLeft="@drawable/ic_filter"
+                    android:drawableRight="@drawable/ic_caret_right"
+                    android:textAllCaps="false"
+                    android:textAlignment="textStart"
+                    android:paddingStart="40dp"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/qa_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/item_qa_list"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/qa_button_add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="130dp"
+        android:backgroundTint="@color/sunrise_3"
+        android:src="@drawable/ic_plus"
+        app:fabCustomSize="60dp"
+        app:maxImageSize="30dp"
+        app:tint="@color/white" />
+
+
+
+</FrameLayout>

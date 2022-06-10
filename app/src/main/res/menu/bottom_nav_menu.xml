@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_solid"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_newspaper"
+        android:title="@string/title_news" />
+
+    <item
+        android:id="@+id/navigation_intro"
+        android:icon="@drawable/ic_school"
+        android:title="@string/title_intro" />
+    <item
+        android:id="@+id/navigation_course"
+        android:icon="@drawable/ic_course"
+        android:title="@string/title_course" />
+    <item
+        android:id="@+id/navigation_qa"
+        android:icon="@drawable/ic_quora"
+        android:title="QA" />
+
+
+</menu>
