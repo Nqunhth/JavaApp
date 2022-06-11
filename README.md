@@ -4,8 +4,11 @@
 --------N13 - ỨNG DỤNG HỖ TRỢ TRUNG TÂM ANH NGỮ----------
 
 Nền tảng phát triển: Mobile – Android
+
 Ngôn ngữ: Java – Hệ quản trị cơ sở dữ liệu: MySQL
+
 Sơ lược đồ án:
+
 Ứng dụng được xây dựng nhằm hướng đến môi trường di động – Android với các tính năng tiện ích về cung cấp thông tin, quản lý người dùng, quản lý bài viết thiết kế dành riêng cho một Trung tâm Anh Ngữ cụ thể.
 Ứng dụng hộ trợ tài khoản và phiên làm việc thích hợp cho 2 loại nhân viên chính trong Trung tâm là người quản lý và nhân viên, trong đó : 
 + Người quản lý có quyền theo dõi, tạo mới và kiểm soát tài khoản nhân viên trong Trung tâm
