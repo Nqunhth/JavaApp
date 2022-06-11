@@ -1,5 +1,6 @@
 # JavaApp
----------Đồ án môn học Ngôn ngữ lập trình Java---------
+---------Đồ án môn học Ngôn ngữ lập trình Java-------
+
 --------N13 - ỨNG DỤNG HỖ TRỢ TRUNG TÂM ANH NGỮ----------
 
 Nền tảng phát triển: Mobile – Android
